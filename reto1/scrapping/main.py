@@ -5,7 +5,7 @@ from tkinter import  *
 from tkinter.ttk import Treeview
 
 app = Tk()
-app.geometry('300x100')
+app.geometry('800x700')
 app.title('reto1')
 
 url = requests.get("https://www.sbs.gob.pe/app/pp/SISTIP_PORTAL/Paginas/Publicacion/TipoCambioPromedio.aspx")
